@@ -1,6 +1,19 @@
 .App {
   text-align: center;
 }
+.App-logoelo {
+  width: 14%;
+  height: 96px;
+  margin-top: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .App-logoelo {
+    width: 40%;
+    height: 72px;
+    margin-top: 0px;
+  }
+}
 
 .App-logo {
   height: 40vmin;
@@ -10,6 +23,15 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-profile {
+  width: 200px;
+}
+@media only screen and (max-width: 600px) {
+  .App-profile {
+    width: 176px;
   }
 }
 
